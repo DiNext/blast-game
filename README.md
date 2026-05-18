@@ -1,6 +1,6 @@
 # Blast Game
 
-Прототип игры-головоломки с механикой **Blast** на **TypeScript + Cocos Creator 2.4.x**.
+Прототип игры-головоломки с механикой **Blast** на **TypeScript + Cocos Creator 2.4.15.
 
 ## Разработка ядра (без Cocos Creator)
 
