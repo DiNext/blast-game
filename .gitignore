@@ -1,0 +1,19 @@
+node_modules/
+coverage/
+*.log
+
+# Cocos Creator 2.4.x generated
+/library/
+/temp/
+/local/
+/build/
+/.cocos-params/
+/settings/v2/
+
+# Secrets — Figma personal access token (never committed)
+.figma-token
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
