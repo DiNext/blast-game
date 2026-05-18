@@ -1,0 +1,13 @@
+{
+  "//": "Конфиг для Cocos Creator 2.4.x (компилирует все скрипты под assets/, нужны декораторы). Строгий конфиг ядра/тестов — tsconfig.jest.json.",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2015", "es2017", "dom"],
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "temp/vscode-dist"
+  },
+  "exclude": ["node_modules", "library", "local", "temp", "build", "settings", "test"]
+}

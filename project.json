@@ -1,0 +1,9 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "blast-game",
+  "description": "Blast puzzle game prototype — TypeScript + Cocos Creator 2.4.x",
+  "version": "2.4.15",
+  "id": "9e4eff71-a87f-4db8-b4bf-8bca4b5f7f94",
+  "isNew": false
+}

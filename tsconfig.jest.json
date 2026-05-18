@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node", "jest"],
+    "rootDir": ".",
+    "baseUrl": "."
+  },
+  "//": "view/ компилируется внутри Cocos Creator (его creator.d.ts). Здесь — только headless-ядро и тесты.",
+  "include": ["assets/scripts/core/**/*.ts", "test/**/*.ts"]
+}

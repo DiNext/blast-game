@@ -1,0 +1,13 @@
+/** Public API of the game core — the single import point for the view layer. */
+export { GameEngine } from './GameEngine'
+export { EventBus } from './events/GameEvents'
+export type { GameEvent, GameEventType } from './events/GameEvents'
+export { Board } from './model/Board'
+export { Tile } from './model/Tile'
+export { GameState } from './model/GameState'
+export { DEFAULT_CONFIG, makeConfig } from './model/GameConfig'
+export type { GameConfig } from './model/GameConfig'
+export { GameStatus, TileType, SuperTileEffect, posKey, posEquals } from './model/types'
+export type { TileColor, Position } from './model/types'
+export { Random } from './util/Random'
+export type { IRandom } from './util/Random'
